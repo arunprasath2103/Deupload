@@ -21,6 +21,20 @@ h1{
     font-weight: bold;
 }
 
+.section-heading h2,
+.lightheight-wrapper h2,
+.privacy-wrapper h2{
+    font-weight: 700;
+}
+
+.img-width{
+    width: 100%;
+}
+
+.my-text-primary{
+    color: var(--primary-color);
+}
+
 .primary-btn{
     background-color: var(--primary-color);
     color: #ffffff;
@@ -66,10 +80,6 @@ h1{
     padding: 100px 0px;
 }
 
-.section-heading h3{
-    font-weight: 700;
-}
-
 .section-heading p{
     color: var(--secondary-color);
 }
@@ -93,15 +103,11 @@ h1{
     padding: 100px 0px;
 }
 
-.lightheight-wrapper h3{
-    font-weight: 700;
-}
-
-.lightheight-wrapper>h3>span:nth-child(2)>span{
+.lightheight-wrapper>h2>span:nth-child(2)>span{
     color: var(--primary-color);
 }
 
-.lightheight-wrapper>h3>span:last-child{
+.lightheight-wrapper>h2>span:last-child{
     color: var(--primary-color);
 }
 
@@ -113,7 +119,7 @@ h1{
     color: var(--secondary-color);
 }
 
-.lightheight-wrapper>div>div:nth-child(1)>div{
+.lightheight-wrapper>div>div:first-child>div{
     background-color: #FFF7ED;
 }
 
@@ -121,4 +127,23 @@ h1{
     background-color: #E0F7FA;
 }
 
+.lightheight-wrapper>div>div:last-child>div{
+    background-color: #ECECFE;
+}
+
 /* Lightheight ends */
+
+/* Privacy starts */
+
+.privacy-wrapper >div > div > div > div:first-child > div a{
+    color: #00E5FF;
+}
+.privacy-wrapper >div > div > div > div:last-child > div a{
+    color: #34D399;
+}
+
+.privacy-wrapper > div > div:last-child > div > div {
+    background-color: #ffffff;
+}
+
+/* Privacy ends */
