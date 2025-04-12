@@ -1,0 +1,124 @@
+:root{
+    --primary-color: #651FFF;
+    --secondary-color: #5C5F6E;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.primary-btn{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px 20px;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.dark-outline-btn{
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+    border: 3px solid #000000;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+/* Banner starts */
+
+.banner{
+    background-color: #EBE5FA;
+    padding: 100px 0px;
+}
+
+.banner-wrapper p{
+    color: var(--secondary-color);
+}
+
+/* Banner ends */
+
+/* App starts */
+
+.app-img{
+    padding: 100px 0px;
+}
+
+/* App ends */
+
+/* Lighting Starts */
+
+.lighting{
+    padding: 100px 0px;
+}
+
+.section-heading h3{
+    font-weight: 700;
+}
+
+.section-heading p{
+    color: var(--secondary-color);
+}
+
+.lighting-wrapper>div>div>div{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 50px; 
+    border-radius: 15px;
+}
+
+.lighting-wrapper>div>div>div a{
+    color: #ffffff;
+}
+
+/* Lighting Ends */
+
+/* Lightheight starts */
+
+.lightheight{
+    padding: 100px 0px;
+}
+
+.lightheight-wrapper h3{
+    font-weight: 700;
+}
+
+.lightheight-wrapper>h3>span:nth-child(2)>span{
+    color: var(--primary-color);
+}
+
+.lightheight-wrapper>h3>span:last-child{
+    color: var(--primary-color);
+}
+
+.lightheight-wrapper>div>div>div{
+    border-radius: 20px;
+}
+
+.lightheight-wrapper>div>div>div p{
+    color: var(--secondary-color);
+}
+
+.lightheight-wrapper>div>div:nth-child(1)>div{
+    background-color: #FFF7ED;
+}
+
+.lightheight-wrapper>div>div:nth-child(2)>div{
+    background-color: #E0F7FA;
+}
+
+/* Lightheight ends */
