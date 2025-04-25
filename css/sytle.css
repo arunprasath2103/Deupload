@@ -135,6 +135,11 @@ h1{
 
 /* Privacy starts */
 
+.privacy{
+    padding: 100px 0px ;
+    background-image: linear-gradient(to bottom , #ffffff 0%, #fafafa 66%);
+}
+
 .privacy-wrapper >div > div > div > div:first-child > div a{
     color: #00E5FF;
 }
@@ -144,6 +149,8 @@ h1{
 
 .privacy-wrapper > div > div:last-child > div > div {
     background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 24px 0px #00000013;
 }
 
 /* Privacy ends */
